@@ -27,8 +27,8 @@ if __name__ == '__main__':
             data.append(line)
     # first line is column header
     column_names = data[0]
-    column_names.append("Latitude")
     column_names.append("Longitude")
+    column_names.append("Latitude")
     results = []
     results.append(column_names)
     data = data[1:]
